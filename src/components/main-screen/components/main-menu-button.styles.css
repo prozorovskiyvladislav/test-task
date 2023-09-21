@@ -1,0 +1,71 @@
+.main-menu_button {
+    position: relative;
+    display: block;
+    width: 288px;
+    height: 56px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0;
+    text-align: left;
+    text-decoration: none;
+    color: #1C1C21;
+    box-sizing: border-box;
+    padding: 0 24px;
+    background-image: url("/public/images/small-main-button.png");
+    background-repeat: repeat-x;
+    background-position: 0, 100%, 50%;
+    margin: 14px;
+}
+.main-menu_button:before,
+.main-menu_button:after {
+    background-color: #D0D0D8;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: absolute;
+    vertical-align: middle;
+    width: 17px;
+}
+.main-menu_button:before {
+    left: -16px;
+    top: 28px;
+}
+.main-menu_button:after {
+    right: -16px;
+    top: 28px;
+}
+.main-menu_button__prefix {
+    color: #FF8B37;
+}
+.main-menu_button__text {
+    color: #1C1C21;
+    margin-left: 8px;
+}
+
+@media screen and (min-width: 1024px) {
+    .main-menu_button {
+        position: relative;
+        display: block;
+        width: 390px;
+        height: 72px;
+        line-height: 80px;
+        font-size: 20px;
+        text-decoration: none;
+        color: #1C1C21;
+        box-sizing: border-box;
+        padding: 0 30px;
+        background-image: url("/public/images/main-button.png");
+        background-repeat: repeat-x;
+        background-position: 0, 100%, 50%;
+        margin: 14px;
+    }
+    .main-menu_button:before {
+        left: -16px;
+        top: 36px;
+    }
+    .main-menu_button:after {
+        right: -16px;
+        top: 36px;
+    }
+}

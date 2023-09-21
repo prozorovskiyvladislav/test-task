@@ -1,0 +1,42 @@
+.right-menu_button {
+    position: relative;
+    display: block;
+    width: 240px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #1C1C21;
+    box-sizing: border-box;
+    padding: 0 30px;
+    background-image: url("/public/images/small-right-button.png");
+    background-repeat: repeat-x;
+    background-position: 0, 100%, 50%;
+    margin: 8px 0;
+}
+.right-menu_button:before,
+.right-menu_button:after {
+    background-color: #D0D0D8;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: absolute;
+    vertical-align: middle;
+    width: 69px;
+}
+.right-menu_button:before {
+    left: -67px;
+    top: 20px;
+}
+.right-menu_button:after {
+    right: -67px;
+    top: 20px;
+}
+.right-menu_button__text {
+    color: #1C1C21;
+    margin-left: 8px;
+}
+.right-menu_button.active span {
+    color: #FF8B37;
+}

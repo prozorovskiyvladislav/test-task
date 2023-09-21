@@ -1,0 +1,35 @@
+.right-menu_wrapper {
+    display: none;
+}
+
+.right-menu_wrapper.open {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #F5F5F7;
+    height: 100vh;
+    text-align: left;
+    padding: 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease-in-out;
+    align-items: center;
+    overflow: hidden;
+    min-height: 100vh;
+    width: 100%;
+}
+
+@media screen and (min-width: 1224px)  {
+    .right-menu_wrapper {
+        background-color: white;
+        display: flex;
+        flex: 0 0 376px;
+        flex-direction: column;
+        align-items: center;
+        float: right;
+        overflow: hidden;
+        min-height: 100vh;
+        justify-content: center;
+    }
+}
