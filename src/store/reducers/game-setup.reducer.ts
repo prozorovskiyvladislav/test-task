@@ -25,7 +25,7 @@ const gameSetupSlice = createSlice({
         state.currentPrize = state.currentPrize * 2;
         return;
       }
-      state.currentPrize = state.initialPrize * 2;
+      state.currentPrize = state.initialPrize;
     },
     gameReset(state) {
       state.currentStep = 1;
