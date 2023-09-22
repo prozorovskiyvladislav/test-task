@@ -16,7 +16,7 @@ export const HomeScreen: React.FC = () => {
     <div className="home-screen-wrapper">
       <div className="home-screen-content">
         <div className="home-screen_image-wrapper">
-          <img src="/images/hand.png" alt="hand" />
+          <img src={process.env.PUBLIC_URL + "/images/hand.png"} alt="hand" />
         </div>
         <div className="home-screen_text-wrapper">
           <h1 className="text-wrapper_text">Who wants to be a millionaire?</h1>

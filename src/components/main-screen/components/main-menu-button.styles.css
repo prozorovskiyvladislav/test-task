@@ -16,7 +16,13 @@
     background-repeat: repeat-x;
     background-position: 0, 100%, 50%;
     margin: 14px;
+    border: none;
+    background-color: transparent;
 }
+.main-menu_button:hover {
+    cursor: pointer;
+}
+
 .main-menu_button:before,
 .main-menu_button:after {
     background-color: #D0D0D8;

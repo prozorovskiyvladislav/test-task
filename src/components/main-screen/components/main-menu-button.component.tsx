@@ -44,12 +44,12 @@ export const MainMenuButtonComponent: React.FC<MainMenuButtonComponentType> = ({
     }
   };
   return (
-    <a href="#" className="main-menu_button border" onClick={handleButtonClick}>
+    <button className="main-menu_button border" onClick={handleButtonClick}>
       {id && (
         <span className="main-menu_button__prefix">{answerPrefix[id]} </span>
       )}
       <span className={"main-menu_button__text"}>{text}</span>
-    </a>
+    </button>
   );
 };
 

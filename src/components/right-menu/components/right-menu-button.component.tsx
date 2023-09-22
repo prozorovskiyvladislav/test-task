@@ -10,12 +10,9 @@ export const RightMenuButtonComponent: React.FC<
   RightMenuButtonComponentType
 > = ({ text, active }) => {
   return (
-    <a
-      href="#"
-      className={`right-menu_button border ${active ? "active" : ""}`}
-    >
+    <button className={`right-menu_button border ${active ? "active" : ""}`}>
       <span className={"right-menu_button__text"}>{text}</span>
-    </a>
+    </button>
   );
 };
 

@@ -14,6 +14,8 @@
     background-repeat: repeat-x;
     background-position: 0, 100%, 50%;
     margin: 8px 0;
+    border: none;
+    background-color: transparent;
 }
 .right-menu_button:before,
 .right-menu_button:after {

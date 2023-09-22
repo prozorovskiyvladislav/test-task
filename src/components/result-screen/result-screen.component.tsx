@@ -22,7 +22,7 @@ export const ResultScreen: React.FC = () => {
     <div className="result-screen-wrapper">
       <div className="result-screen-content">
         <div className="result-screen_image-wrapper">
-          <img src="/images/hand.png" alt="hand" />
+          <img src={process.env.PUBLIC_URL + "/images/hand.png"} alt="hand" />
         </div>
         <div className="result-screen_text-wrapper">
           <h3 className="result-screen_text-wrapper_subtitle">Total Score:</h3>
